@@ -33,7 +33,7 @@ void perform_test() {
 	// since p + 1 >= d, then p^3 - p^2 > p^2 - p > p - 1
 	
 	get_prime(p, d, 1 // this will be p
-	get_prime(p, d, p.back()); // this will be q or p^3
+	get_prime(p, d, p.back()); // this will be q
 	cout << min(1LL * p[0] * p[1], 1LL * p[0] * p[0] * p[0]) << "\n";
 }
 
