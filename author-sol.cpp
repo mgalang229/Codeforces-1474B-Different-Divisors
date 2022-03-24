@@ -32,8 +32,8 @@ void perform_test() {
 	// where p >= 1 + d, p^2 and p^3 satisfies the condition in the problem statement
 	// since p + 1 >= d, then p^3 - p^2 > p^2 - p > p - 1
 	
-	get_prime(p, d, 1 // this will be p
-	get_prime(p, d, p.back()); // this will be q
+	get_prime(p, d, 1);
+	get_prime(p, d, p.back());
 	cout << min(1LL * p[0] * p[1], 1LL * p[0] * p[0] * p[0]) << "\n";
 }
 
